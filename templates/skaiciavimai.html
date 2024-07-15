@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}Skaičiavimai{% endblock %}
+
+{% block content %}
+<h1>Skaičiavimai:</h1>
+{% for x in range(10) %}
+<p>{{ x }}</p>
+<hr>
+{% endfor %}
+{% endblock %}

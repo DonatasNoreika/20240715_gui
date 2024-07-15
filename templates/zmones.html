@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}Žmonės{% endblock %}
+
+
+{% block content %}
+<h1>Žmonės</h1>
+{% for zmogus in sarasas %}
+<p>{{ zmogus }}</p>
+{% endfor %}
+{% endblock %}
